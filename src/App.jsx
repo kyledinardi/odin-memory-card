@@ -1,12 +1,13 @@
 import { useState } from 'react';
-import './App.css';
+import Header from './components/Header';
 
 function App() {
-  useState();
+  const [highScore, setHighScore] = useState(0);
+  const [currentScore, setCurrentScore] = useState(0);
 
   return (
     <>
-      <h1></h1>
+      <Header highScore={highScore} currentScore={currentScore} />
     </>
   );
 }

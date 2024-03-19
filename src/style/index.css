@@ -1,0 +1,18 @@
+@font-face {
+  font-family: Impact;
+  src: url(../fonts/impact.ttf);
+}
+
+.title {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: normal;
+  font-size: 50px;
+  display: grid;
+  grid-template-columns: max-content max-content;
+  align-items: center;
+  gap: 20px;
+}
+
+.title img {
+  height: 80px;
+}
